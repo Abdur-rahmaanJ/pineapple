@@ -1,2 +1,2 @@
 # pineapple
-learning git 
+learning git ...
