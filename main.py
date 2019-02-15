@@ -48,7 +48,7 @@ def area_rect(width, length):
 
 area_rect(20, 40)
 area_rect(40, 40)
-'''
+
 def area_rect(width, length):
     return width*length
 
@@ -69,3 +69,50 @@ def print_square():
 
 for i in range(5):
     print_square()
+
+my_number = 53
+
+if my_number % 2 == 0:
+    print('even')
+else:
+    print('odd')
+
+
+nums = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+for x in nums:
+    if x < 5:
+        print(x)
+
+
+
+num = 64
+
+for x in range(1, num+1):
+    #print(x)
+    if num % x == 0:
+        print(x)
+
+
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+for element in b:
+    if element in a:
+        print(element)
+
+
+
+word = 'dad'
+
+if word == word[::-1]:
+    print('palindrome')
+else:
+    print('not palindrome')
+'''
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+print(
+    [i for i in a if i%2==0]
+    )
